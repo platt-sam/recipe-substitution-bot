@@ -1,25 +1,22 @@
-import argparse, os
+import argparse, os, random
 from os import exists
 
-def get_string_from_file(filename: str) -> str:
-    '''
-    Takes the name of the file containing the recipe as an argument, returns the contents of the file as a string
-    '''
-
-    return "lorem ipsum dolor sit amet recipe"
-
-def create_food_dict() -> list:
+def create_list_of_foods() -> list:
     '''
     Creates a list of food words from wiktionary.org category en:Foods using "beautiful soup"
     '''
 
     return list()
 
-def find_ingredients_in_recipe(recipe: str) -> list:
+def find_ingredients_in_recipe(filename: str) -> list:
     '''
-    Takes the string representation of the recipe as an argument, returns a list of all ingredients found in the recipe
+    Takes the name of the file containing the recipe as an argument, converts the contents of the file to string format, 
+    and returns the contents of the file as a string, returns a list of all ingredients found in the recipe
     '''
     return list()
+
+def pick_ingredient_to_be_replaced(ingredients: list) -> str:
+    return random.choice(ingredients)
 
 
 def main():
@@ -31,9 +28,9 @@ def main():
     if (exists(src_filename) == False):
         raise Exception('File {fn} not found'.format(fn=src_filename))
 
-    create_food_dict()
+    foods = create_list_of_foods()
 
-    get_string_from_file(src_filename)
+    recipe_ingredients = find_ingredients_in_recipe(src_filename)
 
 
 
