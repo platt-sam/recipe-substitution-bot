@@ -1,11 +1,9 @@
-import argparse, os, random, requests
+import argparse, os, random
 from bs4 import BeautifulSoup
 
 def create_list_of_foods() -> list:
     '''
     Creates a list of food words from wiktionary.org category en:Foods using "beautiful soup"
-
-    note to future Sam: this is the tricky part
     '''
     food_files = os.listdir("wiktionary") # list of filenames
     if (food_files[0] == '.DS_Store'): # remove .DS_Store file from the list if it exists
@@ -14,15 +12,15 @@ def create_list_of_foods() -> list:
     list_of_foods = list() # list of food words
 
     for food_file in food_files:
-        fn = 'wiktionary/' + food_file
-        
-        with open(fn) as fp:
+        with open('wiktionary/' + food_file) as fp:
             content = fp.read()
             fp.close()
             soup = BeautifulSoup(content, 'html.parser')
 
             for li in soup.find(id="mw-pages").find_all('li'):
-                list_of_foods.append(li.find('a')['title'])
+                food = li.find('a')['title']
+                if list_of_foods.count(food) <= 0: # make sure there are no duplicates
+                    list_of_foods.append(food)
         
     return(list_of_foods)
 
@@ -47,6 +45,7 @@ def main():
         raise Exception('File {fn} not found'.format(fn=src_filename))
 
     foods = create_list_of_foods()
+    print(len(foods))
 
     # recipe_ingredients = find_ingredients_in_recipe(src_filename)
 
