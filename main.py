@@ -1,10 +1,16 @@
-import argparse, os, random
+import argparse, os, random, requests
 from os import exists
+import bs4 as BeautifulSoup
+
+# soup = BeautifulSoup(html_doc, 'html.parser')
 
 def create_list_of_foods() -> list:
     '''
     Creates a list of food words from wiktionary.org category en:Foods using "beautiful soup"
+
+    note to future Sam: this is the tricky part
     '''
+
 
     return list()
 
