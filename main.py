@@ -39,9 +39,6 @@ def find_ingredients_in_recipe(list_of_foods: list, filename: str) -> list:
             list_of_ingredients.append(food)
     return list_of_ingredients
 
-def pick_random_ingredient(l: list) -> str:
-    return random.choice(l)
-
 def generate_comment(original_ingredient: str, new_ingredient: str) -> str:
     comment = "This turns out so much better if you swap out the {oi} for {ni}. Sounds really weird but trust me".format(oi=original_ingredient, ni=new_ingredient)
     return comment
@@ -64,7 +61,7 @@ def main():
     list_of_ingredients = find_ingredients_in_recipe(list_of_foods, src_filename)
 
     for x in range(5):
-        print(generate_comment(pick_random_ingredient(list_of_ingredients), pick_random_ingredient(list_of_foods)))
+        print(generate_comment(random.choice(list_of_ingredients), random.choice(list_of_foods)))
 
 if __name__ == "__main__":
     main()
