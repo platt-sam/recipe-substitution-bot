@@ -63,12 +63,8 @@ def main():
 
     list_of_ingredients = find_ingredients_in_recipe(list_of_foods, src_filename)
 
-    if len(list_of_ingredients) < 3:
-        for ingredient in list_of_ingredients:
-            print(generate_comment(ingredient, pick_random_ingredient(list_of_foods)))
-    else:
-        for x in range(3):
-            print(generate_comment(pick_random_ingredient(list_of_ingredients), pick_random_ingredient(list_of_foods)))
+    for x in range(5):
+        print(generate_comment(pick_random_ingredient(list_of_ingredients), pick_random_ingredient(list_of_foods)))
 
 if __name__ == "__main__":
     main()
