@@ -1,33 +1,42 @@
-# used already
+# food categories used
 
+https://en.wiktionary.org/wiki/Category:en:Alcoholic_beverages          # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Alliums
 https://en.wiktionary.org/wiki/Category:en:Apiales_order_plants
 https://en.wiktionary.org/wiki/Category:en:Apieae_tribe_plants
 https://en.wiktionary.org/wiki/Category:en:Apple_cultivars
 https://en.wiktionary.org/wiki/Category:en:Banana_cultivars
+https://en.wiktionary.org/wiki/Category:en:Beer                         # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Berries
+https://en.wiktionary.org/wiki/Category:en:Beverages                    # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Blueberry_tribe_plants
 https://en.wiktionary.org/wiki/Category:en:Brambles
 https://en.wiktionary.org/wiki/Category:en:Breads
 https://en.wiktionary.org/wiki/Category:en:Breakfast_cereals
-https://en.wiktionary.org/wiki/Category:en:Cakes_and_pastries
+https://en.wiktionary.org/wiki/Category:en:Cakes_and_pastries           # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Celery_family_plants
-https://en.wiktionary.org/wiki/Category:en:Cheeses
+https://en.wiktionary.org/wiki/Category:en:Cheeses                      # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Cherry_cultivars
-https://en.wiktionary.org/wiki/Category:en:Condiments
-https://en.wiktionary.org/wiki/Category:en:Cuts_of_meat
+https://en.wiktionary.org/wiki/Category:en:Cocktails                    # FILTER THIS ONE
+https://en.wiktionary.org/wiki/Category:en:Coffee                       # FILTER THIS ONE
+https://en.wiktionary.org/wiki/Category:en:Condiments                   # FILTER THIS ONE
+https://en.wiktionary.org/wiki/Category:en:Cuts_of_meat                 # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Dairy_products
-https://en.wiktionary.org/wiki/Category:en:Desserts
+https://en.wiktionary.org/wiki/Category:en:Desserts                     # FILTER THIS ONE
+https://en.wiktionary.org/wiki/Category:en:Distilled_beverages          # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Eggs
 https://en.wiktionary.org/wiki/Category:en:Fats_and_oils
-https://en.wiktionary.org/wiki/Category:en:Foods
+https://en.wiktionary.org/wiki/Category:en:Foods                        # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Fruits
 https://en.wiktionary.org/wiki/Category:en:Ginger_family_plants
 https://en.wiktionary.org/wiki/Category:en:Grains
+https://en.wiktionary.org/wiki/Category:en:Grapevines                   # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Herbs
 https://en.wiktionary.org/wiki/Category:en:Honey
+https://en.wiktionary.org/wiki/Category:en:Liqueurs                     # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Maize_(food)
-https://en.wiktionary.org/wiki/Category:en:Meats
+https://en.wiktionary.org/wiki/Category:en:Mate
+https://en.wiktionary.org/wiki/Category:en:Meats                        # FILTER THIS ONE
 https://en.wiktionary.org/wiki/Category:en:Menthinae_subtribe_plants
 https://en.wiktionary.org/wiki/Category:en:Milk
 https://en.wiktionary.org/wiki/Category:en:Mint_family_plants
@@ -53,10 +62,12 @@ https://en.wiktionary.org/wiki/Category:en:Spices
 https://en.wiktionary.org/wiki/Category:en:Spices_and_herbs
 https://en.wiktionary.org/wiki/Category:en:Stone_fruits
 https://en.wiktionary.org/wiki/Category:en:Sweets
+https://en.wiktionary.org/wiki/Category:en:Tea
 https://en.wiktionary.org/wiki/Category:en:Tomatoes
 https://en.wiktionary.org/wiki/Category:en:Vegetables
+https://en.wiktionary.org/wiki/Category:en:Wine                         # FILTER THIS ONE
 
-# not yet used
+# food categories not used
 
 https://en.wiktionary.org/wiki/Category:en:Ice_cream
 https://en.wiktionary.org/wiki/Category:en:Pies
