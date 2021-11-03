@@ -2,11 +2,26 @@
 
 Based on a [Tumblr post](https://img.ifunny.co/images/55d6c06960fbca7d63c814af95689502bf4060d6b0d525cff72523f8f4f78263_1.jpg), this bot generates comments for recipe sites suggesting that a random ingredient from the recipe is substituted with one randomly chosen from a massive list of ingredients.
 
-### Known Issues
+## How to run this program
+
+> python3 main.py -fn 'foo.txt'
+
+or
+
+> python3 main.py --filename 'foo.txt'
+
+Where foo.txt refers to the filename (including the path) of the file containing a list of ingredients for a recipe.
+
+## Known Issues
 There are some foods that may contain offensive words or words that do not make sense. I am working to remove these words, if you happen to find one please tell me.
 
-### Program Environment
+## Program Environment
 This program was developed on a computer running MacOS with Python version 3.10.0. Mileage may vary if you are using a different version of Python. Some packages may need to be installed in order to run this program on your computer.
 
-### Test Input
+## Test Input
 The links to the sources of the test input are listed in test_input_sources.txt. If you own one of the recipes used as test input and would like me to remove it, let me know and I will.
+
+## Future Features
+
+### Get Ingredients from Recipe URL
+In the future I plan to implement a feature that can automatically get the ingredients list of a recipe, no need for the user to create an input file containing the ingredients.
