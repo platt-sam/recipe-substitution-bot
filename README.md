@@ -7,3 +7,6 @@ There are some foods that may contain offensive words or words that do not make 
 
 ### Program Environment
 This program was developed on a computer running MacOS with Python version 3.10.0. Mileage may vary if you are using a different version of Python. Some packages may need to be installed in order to run this program on your computer.
+
+### Test Input
+The links to the sources of the test input are listed in test_input_sources.txt. If you own one of the recipes used as test input and would like me to remove it, let me know and I will.
