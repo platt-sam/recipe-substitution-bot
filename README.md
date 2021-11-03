@@ -5,7 +5,9 @@ Based on a [Tumblr post](https://img.ifunny.co/images/55d6c06960fbca7d63c814af95
 ## How to run this program
 
 > python3 main.py -fn 'foo.txt'
-OR
+
+or
+
 > python3 main.py --filename 'foo.txt'
 
 Where foo.txt refers to the filename (including the path) of the file containing a list of ingredients for a recipe.
