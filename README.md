@@ -10,7 +10,7 @@ or
 
 > python3 main.py --filename 'foo.txt'
 
-Where foo.txt refers to the filename (including the path) of the file containing a list of ingredients for a recipe.
+where foo.txt refers to the filename (including the path) of the file containing a list of ingredients for a recipe.
 
 ## Known Issues
 ### Offensive or Strange Food Words
@@ -24,6 +24,4 @@ This program was developed on a computer running MacOS with Python version 3.10.
 
 ## Test Input
 The links to the sources of the test input are listed in test_input_sources.txt. If you own one of the recipes used as test input and would like me to remove it, let me know and I will.
-
-## Future Features
 
