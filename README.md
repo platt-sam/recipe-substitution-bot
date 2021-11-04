@@ -13,7 +13,11 @@ or
 Where foo.txt refers to the filename (including the path) of the file containing a list of ingredients for a recipe.
 
 ## Known Issues
-There are some foods that may contain offensive words or words that do not make sense. I am working to remove these words, if you happen to find one please tell me.
+### Offensive or Strange Food Words
+There are some foods that may contain offensive words or words that do not make sense. I am working to add more words to the filter. If you find something I missed, please let me know.
+
+### Program is Slow
+I've switched to grabbing live versions of the Wiktionary category pages using the requests library, unfortunately this is much slower. I am optimizing it as best I can, but please be aware that the program takes about five seconds to run (depending on factors like your internet connection).
 
 ## Program Environment
 This program was developed on a computer running MacOS with Python version 3.10.0. Mileage may vary if you are using a different version of Python. Some packages may need to be installed in order to run this program on your computer.
@@ -23,5 +27,3 @@ The links to the sources of the test input are listed in test_input_sources.txt.
 
 ## Future Features
 
-### Get Ingredients from Recipe URL
-In the future I plan to implement a feature that can automatically get the ingredients list of a recipe, no need for the user to create an input file containing the ingredients.
