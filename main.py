@@ -1,7 +1,6 @@
-import argparse, os, random, requests
+import argparse, os, random, requests.sessions
 from bs4 import BeautifulSoup
 from wordfilter import Wordfilter
-from requests.sessions import Session
 
 def create_list_of_foods() -> list:
     '''
@@ -12,7 +11,6 @@ def create_list_of_foods() -> list:
 
     with open('wiktionary_categories.txt') as fp:
         categories = fp.read()
-        fp.close()
     
     with requests.Session() as session:
         for category in categories.splitlines():
@@ -29,7 +27,7 @@ def create_list_of_foods() -> list:
 
 def filter_list_of_foods(list_of_foods: list) -> list:
     wordfilter = Wordfilter()
-    wordfilter.addWords(['arse', 'baby beef', "breast milk", 'cow', 'cup', 'cuppa', 'fuck', 'good egg', 'heal-all', 'human burger', 'lacta', 'latte art', "mother's milk", 'sarcophagic', 'sessionable', 'shit', 'take the gilt off the gingerbread', 'tea caddy', 'tea cosy', 'tea house', 'tea room', 'turd']) # add additional words to filter
+    wordfilter.addWords(['arse', 'baby beef', "breast milk", 'catmeat', 'congee', 'cow', 'cup', 'cuppa', 'dwarf elder', 'fuck', 'good egg', 'heal-all', 'human burger', 'lacta', 'latte art', "mother's milk", 'saturated fat', 'ramp', 'rotgut', 'rot gut', 'sarcophagic', 'sessionable', 'shit', 'sleeve', 'take the gilt off the gingerbread', 'tea caddy', 'tea cosy', 'tea house', 'tea room', 'turd', 'VS', 'wanker']) # add additional words to filter
     
     for food in list_of_foods:
         if (wordfilter.blacklisted(food) == True): # if the food contains a blacklisted word
@@ -73,7 +71,7 @@ def main():
     '''
     # for filtering
     print(str(len(list_of_foods)) + " food words found") # the total number of foods in list_of_foods
-    for x in range(10):
+    for x in range(100):
         print(random.choice(list_of_foods))
     exit()
     '''
