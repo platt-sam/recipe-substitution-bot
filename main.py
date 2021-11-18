@@ -68,13 +68,13 @@ def main():
 
     list_of_foods = create_list_of_foods()
     
-    
+    '''
     # for filtering
     print(str(len(list_of_foods)) + " food words found") # the total number of foods in list_of_foods
     for x in range(100):
         print(random.choice(list_of_foods))
     exit()
-    
+    '''
 
     list_of_ingredients = find_ingredients_in_recipe(list_of_foods, src_filename)
 
